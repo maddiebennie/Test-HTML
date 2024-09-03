@@ -1,0 +1,30 @@
+@font-face {
+	font-family: 'Brush Script MT Italic';
+	font-weight: normal;
+	font-style: italic;
+	src: url("/fonts/brushmtcustom.woff") format("woff"), url("/fonts/brushmtcustom.eot?") format("embedded-opentype");
+}
+
+@font-face {
+	font-family: 'Brush Script MT';
+	font-weight: normal;
+	font-style: italic;
+	src: url("/fonts/brushmtcustom.woff") format("woff"), url("fonts/brushmtcustom.eot?") format("embedded-opentype"), local('Brush Script MT Italic'), local("BrushScriptMT");
+}
+
+
+.sedgemanTitle {
+	font-family: 'Brush Script MT Italic';
+	font-style: italic;
+/*	font-size: 250%;
+//	color: #F416E0;
+*/
+	letter-spacing: 1px;
+	text-rendering: optimizeLegibility;
+	font-feature-settings: "kern" 1;
+	font-weight: normal;
+}
+
+.sedgemanTitleWrap {
+	white-space: nowrap;
+}
